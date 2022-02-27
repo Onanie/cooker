@@ -1,7 +1,23 @@
 import { StyleSheet } from "react-native";
 
 const Styles = StyleSheet.create({
-  container: {},
+  container: {
+    flex: 1,
+  },
+  methodContainer: {
+    flex: 1,
+    width: "100%",
+    flexDirection: "row",
+  },
+  ingridientsView: {
+    borderRightColor: "#666A6D",
+    borderRightWidth: 1,
+    flex: 2,
+    width: 40,
+  },
+  methodView: {
+    flex: 2,
+  },
   heading: {},
   loginButton: {},
   Headercontainer: {
@@ -102,7 +118,7 @@ const Styles = StyleSheet.create({
     width: 150,
     height: 50,
     borderRadius: 25,
-    borderWidth: 1,
+    borderWidth: 0,
     margin: 10,
   },
   buttonText: {
