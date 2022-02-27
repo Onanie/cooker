@@ -4,7 +4,7 @@ import Recipes from "./RecipesReducer";
 import setRecipes from "./AddRecipes";
 
 export default combineReducers({
-  selectedDog: setRecipe,
+  selectedRecipe: setRecipe,
   recipes: Recipes,
   addRecipes: setRecipes,
 });

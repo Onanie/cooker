@@ -2,22 +2,27 @@ export default () => {
   return [
     {
       title: "Burger",
+      ingredients: "Beef patty, Buns, Tomatoes, Onions, Cheesee, Latus",
       method:
-        "Beef patty. Buns. Tomatoes. Onions Cheesee Latus Method: Fry the beef patties until brown",
+        "Fry the beef patties until brown. Butter the buns, Place 1 leaf of lettus, fried patties and chessee slices",
       imageUri: require("../../assets/burger.jpg"),
       name: "Sarah Smith",
       userImage: require("../../assets/girl.jpeg"),
     },
     {
       title: "Ice Cream",
-      method: " 2L Milk, Sugar, 2L Cream",
+      method:
+        "Add milk, cream and sugar to iceam machine, add egg yolk and turn it on. refrigirate overnite",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/ice_cream.jpg"),
       name: "Brenda White",
       userImage: require("../../assets/girl2.jpeg"),
     },
     {
       title: "Maccaroni",
-      method: "R 100",
+      method:
+        "Boil Maccaroni until soft. bring milk to boil, add cheessee, salt, spice and cook on low heat. Add the maccaroni",
+      ingredients: "1 pack of Maccaroni, salt, chessee, spice, cooking oil",
       imageUri: require("../../assets/maccaroni.jpg"),
       name: "Anthony Richards",
       userImage: require("../../assets/guy.jpeg"),
@@ -25,6 +30,7 @@ export default () => {
     {
       title: "Meat Balls",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/meat_ball.jpg"),
       name: "Boby Farm",
       userImage: require("../../assets/guyw2.jpeg"),
@@ -32,6 +38,7 @@ export default () => {
     {
       title: "Pasta",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/pasta.jpg"),
       name: "Nomsa Ntuli",
       userImage: require("../../assets/b_girl.jpeg"),
@@ -39,6 +46,7 @@ export default () => {
     {
       title: "Fish",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/fish.jpg"),
       name: "Bongiwe Moloi",
       userImage: require("../../assets/straightBack.jpeg"),
@@ -46,6 +54,7 @@ export default () => {
     {
       title: "Avocado Salad",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/avo_salad.jpg"),
       name: "Sarah Smith",
       userImage: require("../../assets/girl.jpeg"),
@@ -53,6 +62,7 @@ export default () => {
     {
       title: "Pancakes",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/pancakes.jpg"),
       name: "Brenda White",
       userImage: require("../../assets/girl2.jpeg"),
@@ -60,6 +70,7 @@ export default () => {
     {
       title: "Green Salad",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/vegan_salad.jpg"),
       name: "Anthony Richards",
       userImage: require("../../assets/guy.jpeg"),
@@ -67,6 +78,7 @@ export default () => {
     {
       title: "Beef Steak",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/steak.jpg"),
       name: "Boby Farm",
       userImage: require("../../assets/guyw2.jpeg"),
@@ -74,6 +86,7 @@ export default () => {
     {
       title: "Salad",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/tomato_salad.jpg"),
       name: "Nomsa Ntuli",
       userImage: require("../../assets/b_girl.jpeg"),
@@ -81,6 +94,7 @@ export default () => {
     {
       title: "Salad",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/veg.jpg"),
       name: "Bongiwe Moloi",
       userImage: require("../../assets/straightBack.jpeg"),
@@ -88,6 +102,7 @@ export default () => {
     {
       title: "Ribs",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/ribs.jpg"),
       name: "Sarah Smith",
       userImage: require("../../assets/girl.jpeg"),
@@ -95,6 +110,7 @@ export default () => {
     {
       title: "Dessert",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/chocolate.jpg"),
       name: "Nomsa Ntuli",
       userImage: require("../../assets/b_girl.jpeg"),
@@ -102,6 +118,7 @@ export default () => {
     {
       title: "Salad",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/mixed_salad.jpg"),
       name: "Bongiwe Moloi",
       userImage: require("../../assets/straightBack.jpeg"),
@@ -109,6 +126,7 @@ export default () => {
     {
       title: "Dessert",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/brownies.jpg"),
       name: "Bongiwe Moloi",
       userImage: require("../../assets/straightBack.jpeg"),
@@ -116,6 +134,7 @@ export default () => {
     {
       title: "Salad",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/chessee_salad.jpg"),
       name: "Nomsa Ntuli",
       userImage: require("../../assets/b_girl.jpeg"),
@@ -123,6 +142,7 @@ export default () => {
     {
       title: "Breakfast",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/break_fast.jpg"),
       name: "Boby Farm",
       userImage: require("../../assets/guyw2.jpeg"),
@@ -130,6 +150,7 @@ export default () => {
     {
       title: "Pasta",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/past_olive.jpg"),
       name: "Anthony Richards",
       userImage: require("../../assets/guy.jpeg"),
@@ -137,6 +158,7 @@ export default () => {
     {
       title: "Salad",
       method: "R 100",
+      ingredients: " 2L Milk, Sugar, 2L Cream",
       imageUri: require("../../assets/salad_sm.jpg"),
       name: "Sarah Smith",
       userImage: require("../../assets/girl.jpeg"),

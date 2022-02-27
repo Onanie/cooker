@@ -1,11 +1,13 @@
 import React from "react";
 import { View, Text, TouchableOpacity, Image } from "react-native";
 import { connect, useDispatch } from "react-redux";
+import { useNavigation } from "@react-navigation/native";
 import { selectRecipe } from "../Redux/Actions/Index";
 import Styles from "./Styles";
 
-function RecipeCard({ item, navigation }: any) {
+function RecipeCard({ item }: any) {
   const dispatch = useDispatch();
+  const navigation = useNavigation();
   return (
     <View style={Styles.productContainer}>
       <TouchableOpacity

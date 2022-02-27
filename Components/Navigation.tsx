@@ -18,7 +18,7 @@ const Navigation = () => {
       >
         <Stack.Screen name="Landing" component={Landing} />
         <Stack.Screen name="Home" component={Tabs} />
-        <Stack.Screen name="Deails" component={Details} />
+        <Stack.Screen name="Details" component={Details} />
         <Stack.Screen name="Register" component={UserDetails} />
       </Stack.Navigator>
     </NavigationContainer>
