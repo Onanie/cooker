@@ -2,7 +2,12 @@ import { StyleSheet } from "react-native";
 
 const Styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "white" },
-  heading: { margin: 25, fontSize: 25, color: "#AB0F0A", alignSelf: "center" },
+  heading: {
+    margin: 25,
+    fontSize: 25,
+    color: "#AB0F0A",
+    alignSelf: "center",
+  },
   loginButton: {},
   registerButton: {},
   image: {

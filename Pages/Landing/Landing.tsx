@@ -9,7 +9,9 @@ export default function Landing({ navigation }: any) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const login = () => {};
+  const login = () => {
+    navigation.navigate(constants.HOME);
+  };
   const register = () => {
     navigation.navigate(constants.REGISTER);
   };

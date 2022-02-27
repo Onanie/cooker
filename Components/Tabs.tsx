@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "../Pages/Home/Home";
 import Messages from "../Pages/Details/Details";
-import Favourites from "../Pages/Home/Home";
+import Favourites from "../Pages/Favourites/Favourites";
 import Profile from "../Pages/Details/Details";
 import { Ionicons } from "@expo/vector-icons";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
@@ -28,8 +28,12 @@ const Tabs = () => {
         component={Home}
         options={{
           tabBarLabel: "Home",
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="home-outline" size={28} color="green" />
+          tabBarIcon: ({ focused }) => (
+            <Ionicons
+              name="home-outline"
+              size={28}
+              color={focused ? "#AB0F0A" : "#666A6D"}
+            />
           ),
         }}
       />
@@ -39,8 +43,12 @@ const Tabs = () => {
         component={Favourites}
         options={{
           tabBarLabel: "Favourites",
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="heart-outline" size={28} color="green" />
+          tabBarIcon: ({ focused }) => (
+            <Ionicons
+              name="heart-outline"
+              size={28}
+              color={focused ? "#AB0F0A" : "#666A6D"}
+            />
           ),
         }}
       />
@@ -49,8 +57,12 @@ const Tabs = () => {
         component={Messages}
         options={{
           tabBarLabel: "Home",
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="mail-open-outline" size={28} color="green" />
+          tabBarIcon: ({ focused }) => (
+            <Ionicons
+              name="mail-open-outline"
+              size={28}
+              color={focused ? "#AB0F0A" : "#666A6D"}
+            />
           ),
         }}
       />
@@ -59,8 +71,12 @@ const Tabs = () => {
         component={Profile}
         options={{
           tabBarLabel: "Settings",
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="person-outline" size={28} color="green" />
+          tabBarIcon: ({ focused }) => (
+            <Ionicons
+              name="person-outline"
+              size={28}
+              color={focused ? "#AB0F0A" : "#666A6D"}
+            />
           ),
         }}
       />
